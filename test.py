@@ -11,4 +11,4 @@ def test_home():
     assert response.status_code == 200
     
     # Optional: Check response content
-    assert b"Hello, World!" in response.data
+    assert b"Hello this is CI/CD" in response.data
